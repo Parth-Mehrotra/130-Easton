@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<!-- Photo Sphere Viewer and it's dependencies -->
+		<link rel="stylesheet" href="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.min.css" />
+
+		<script src="node_modules/three/build/three.min.js"></script>
+		<script src="node_modules/d.js/lib/D.min.js"></script>
+		<script src="node_modules/uevent/uevent.min.js"></script>
+		<script src="node_modules/dot/doT.min.js"></script>
+
+		<script src="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.min.js"></script>
+	</head>
+	<body>
+		<div id="studio-sphere">
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+			var viewer = PhotoSphereViewer({
+				container: 'studio-sphere',
+				panorama: 'assets/Bryce-Canyon-National-Park-Mark-Doliner.jpg'
+			});
+		</script>
+
+	</body>
+</html>
