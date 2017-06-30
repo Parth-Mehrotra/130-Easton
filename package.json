@@ -4,7 +4,7 @@
   "description": "130 Easton Ave Apartment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Parth/130-Easton/issues"
   },
-  "homepage": "https://github.com/Parth/130-Easton#readme"
+  "homepage": "https://github.com/Parth/130-Easton#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
 }
