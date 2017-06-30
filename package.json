@@ -1,0 +1,19 @@
+{
+  "name": "130-easton",
+  "version": "1.0.0",
+  "description": "130 Easton Ave Apartment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parth/130-Easton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parth/130-Easton/issues"
+  },
+  "homepage": "https://github.com/Parth/130-Easton#readme"
+}
