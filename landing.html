@@ -13,6 +13,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<!-- Photo Sphere Viewer and it's dependencies -->
+		<link rel="stylesheet" href="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.min.css" />
+
+		<script src="node_modules/three/build/three.min.js"></script>
+		<script src="node_modules/d.js/lib/D.min.js"></script>
+		<script src="node_modules/uevent/uevent.min.js"></script>
+		<script src="node_modules/dot/doT.min.js"></script>
+
+		<script src="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.min.js"></script>
 	</head>
 	<body>
 
@@ -73,6 +83,30 @@
 										<p> <center> Floor Plan </center> </p>
 									</header>
 									<p><img src="images/one-br.jpg" alt="" data-position="center center" /></p>
+
+
+									<div class="photosphere" id="onebr-sphere1">
+									</div>
+
+									<script src="assets/js/jquery.min.js"></script>
+									<script>
+										var viewer = PhotoSphereViewer({
+											container: 'onebr-sphere1',
+											panorama: 'assets/onebr-pano1.jpg'
+										});
+									</script>
+									
+									<div class="photosphere" id="onebr-sphere2">
+									</div>
+
+									<script src="assets/js/jquery.min.js"></script>
+									<script>
+										var viewer = PhotoSphereViewer({
+											container: 'onebr-sphere2',
+											panorama: 'assets/onebr-pano2.jpg'
+										});
+									</script>
+
 								</div>
 							</section>
 

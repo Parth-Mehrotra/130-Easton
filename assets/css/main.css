@@ -48,6 +48,21 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	div.photosphere {
+		display: block;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		height: 600px;
+		position: relative;
+		z-index: 1;
+	}
+	div.photocontainer {
+		padding-top: 50px;
+		position: relative;
+		z-index: 1;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
