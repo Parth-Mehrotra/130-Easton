@@ -58,7 +58,7 @@
 						<h1>Studio</h1>
 					</header>
 					<div class="content">
-						<p>300 sqft.<br>
+						<p>
 							$1,375 / month
 						</p>
 					</div>
@@ -67,22 +67,27 @@
 			<!-- Main -->
 			<div id="main">
 				<section id="two" class="spotlights">
+					
 					<section>
+						<a class="image">
+							<img src="images/130.jpg" alt="" data-position="top center" />
+						</a>
 						<div class="content">
 							<div class="inner">
 								<header class="major">
 									<h3>What's included</h3>
 								</header>
-								<p>Updated kitchen with stainless steel appliances. <br /> Standing shower.</p>
+								<p>Updated kitchen with full set of appliances. 1 Full bathroom. Prime Location for College Students!</p>
 								<ul class="actions">
-									<li><a href="elements.html" class="button">See full building Amenities</a></li>
+									<li><a href="elements.html" class="button">See full building amenities</a></li>
+									<li><a href="location.html" class="button">Learn more about our location</a></li>
 								</ul>
 							</div>
 						</div>
 					</section>
 					<section>
 						<a class="image">
-						<img src="images/parking.jpg" alt="" data-position="top center" />
+							<img src="images/parking.jpg" alt="" data-position="top center" />
 						</a>
 						<div class="content">
 							<div class="inner">
@@ -96,7 +101,31 @@
 							</div>
 						</div>
 					</section>
-					<section>
+					<section id="one">
+							<div class="image photosphere" id="studio-sphere1">
+							</div>
+							<div class="content">
+								<div class="inner">
+									<header class="major">
+										<h3>Look Inside</h3>
+									</header>
+									<p>Updated kitchen with full set of appliances. 1 Full bathroom. Prime Location for College Students!</p>
+									<ul class="actions">
+										<li><a href="elements.html" class="button">See full building amenities</a></li>
+										<li><a href="location.html" class="button">Learn more about our location</a></li>
+									</ul>
+									<script src="assets/js/jquery.min.js"></script>
+									<script>
+										var viewer = PhotoSphereViewer({
+											container: 'studio-sphere1',
+											panorama: 'assets/studio-pano1.jpg'
+										});
+									</script>
+								</div>
+							</div>
+						</section>
+									<center> <img src="images/studio.jpg" alt=""  /> </center>
+						<section>
 						<img src="images/bathroom.jpg" alt="" data-position="25% 25%" />
 						<div class="content">
 							<div class="inner">
@@ -111,30 +140,7 @@
 						</div>
 					</section>
 				</section>
-				<section id="one">
-					<div class="inner">
-						<center> Floor Plan </center>
-						<center> <img src="images/studio.jpg" alt=""  /> </center>
-						<div class="photosphere" id="studio-sphere1">
-						</div>
-						<script src="assets/js/jquery.min.js"></script>
-						<script>
-							var viewer = PhotoSphereViewer({
-								container: 'studio-sphere1',
-								panorama: 'assets/studio-pano1.jpg'
-							});
-						</script>
-						<div class="photosphere" id="studio-sphere2">
-						</div>
-						<script src="assets/js/jquery.min.js"></script>
-						<script>
-							var viewer = PhotoSphereViewer({
-								container: 'studio-sphere2',
-								panorama: 'assets/studio-pano2.jpg'
-							});
-						</script>
-					</div>
-				</section>
+				
 				<!-- Two -->
 				<!-- Contact -->
 				<section id="contact">
