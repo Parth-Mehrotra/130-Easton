@@ -109,12 +109,33 @@
 									<header class="major">
 										<h3>Look Inside</h3>
 									</header>
-									<p>Updated kitchen with full set of appliances. 1 Full bathroom. Prime Location for College Students! See floor plan for layout below.</p>
+									<p>Updated kitchen with full set of appliances. 1 Full bathroom. Prime Location for College Students! See floor plan for layout below. Interact with the photosphere on the left.</p>
 									<script src="assets/js/jquery.min.js"></script>
 									<script>
 										var viewer = PhotoSphereViewer({
 											container: 'studio-sphere1',
-											panorama: 'assets/onebr-pano1.jpg'
+											panorama: 'assets/onebr-pano1.jpg',
+											default_fov: 90
+										});
+									</script>
+								</div>
+							</div>
+						</section>
+						<section id="one">
+							<div class="image photosphere" id="studio-sphere2">
+							</div>
+							<div class="content">
+								<div class="inner">
+									<header class="major">
+										<h3>Spacious Doubles</h3>
+									</header>
+									<p>A spacious double that can fit 1-2 people comfortably. Interact with the photoshpere on the right.</p>
+									<script src="assets/js/jquery.min.js"></script>
+									<script>
+										var viewer = PhotoSphereViewer({
+											container: 'studio-sphere2',
+											panorama: 'assets/double-pano.jpg',
+											default_fov: 90
 										});
 									</script>
 								</div>
